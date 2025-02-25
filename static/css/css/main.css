@@ -1,0 +1,157 @@
+html, body {
+    background-image: url('/static/images/R.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container .w-50 {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.1); /* Прозрачный фон */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.container .w-100 {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.1); /* Прозрачный фон */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+/* Заголовок логина */
+.container .w-50 h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Стиль полей ввода */
+.container .form-control {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Стиль кнопки логина */
+.container .col-md-3 text-end {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.container .col-md-3 text-end:hover {
+    background-color: #e0e0e0;
+}
+
+/* Стили для ссылок */
+.container a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.container a:hover {
+    opacity: 1;}
+
+
+/* Добавление расстояния между кнопками */
+.nav.justify-content-center {
+    gap: 20px; /* Устанавливаем расстояние между кнопками */
+
+}
+
+/* Анимация увеличения при наведении */
+.nav-link {
+    transition: transform 0.3s ease; /* Плавный переход */
+
+}
+
+.nav-link:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+    color: white; /* Оставляем основной цвет */
+
+}
+
+.btn-primary {
+    background-color: #0d6efd; /* Цвет заливки */
+    color: #ffffff; /* Цвет текста */
+    border: none; /* Убираем обводку */
+    padding: 10px 20px; /* Внутренние отступы */
+    border-radius: 50px; /* Закругленные края */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7; /* Темный оттенок при наведении */
+}
+.custom-file-upload label {
+    font-weight: bold;
+    color: #ffffff; /* Цвет текста */
+    margin-bottom: 5px;
+}
+
+.custom-file-upload .form-control[type="file"] {
+    color: #ffffff; /* Цвет текста кнопки выбора файла */
+    background-color: rgba(255, 255, 255, 0.2); /* Прозрачный фон */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Полупрозрачная граница */
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-file-upload .form-control[type="file"]:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Более заметный фон при наведении */
+    border-color: rgba(255, 255, 255, 0.6); /* Изменение цвета границы при наведении */
+}
+
+.custom-file-upload .form-control[type="file"]::file-selector-button {
+    background-color: #ffffff; /* Белый фон кнопки выбора файла */
+    color: #000; /* Черный цвет текста на кнопке */
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload .form-control[type="file"]::file-selector-button:hover {
+    background-color: #e0e0e0; /* Более светлый цвет на кнопке при наведении */
+}
+.text-light-gray {
+    color: #d3d3d3; /* Светло-серый цвет */
+}
+.me-2 {
+    background-color: rgba(255, 255, 255, 0.7); /* Светло-серый прозрачный фон */
+    padding: 5px 10px; /* Отступы вокруг текста */
+    border-radius: 8px; /* Закругленные края */
+    color: black; /* Белый текст */
+    font-weight: 500; /* Полужирный текст */
+}
+
+
+.content-box {
+    background-color: #000; /* Ensure no transparency in each content box */
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+    width: 100%;
+}
+
+
